@@ -1,0 +1,7 @@
+<h1>Postagens</h1>
+
+<% @posts.each do |post| %>
+<%= post.titulo " "%>
+<%= link_to 'show', post %>
+<br>
+<%end%>
